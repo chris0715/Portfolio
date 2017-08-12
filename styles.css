@@ -1,0 +1,222 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+div{
+  clear: none;
+}
+
+p{ text-align: center;}
+
+#personal-info {
+  flex: 2;
+}
+
+figure img {
+}
+
+figcaption {
+  font-style: italic;
+}
+.header {
+  background: #000000;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+  min-height: 5rem;
+  overflow: hidden;
+}
+
+.introduction {
+  background-image: url(images/20.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.about-me {
+  background-color: antiquewhite;
+  min-height: 50vh;
+}
+.logo {
+  margin-left: 1rem;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: yellow;
+  font-family: 'Indie Flower', cursive;
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  padding-top: 5%;
+}
+
+.skills-title {
+  display: flex;
+  align-items: center;
+}
+
+.skills-img {
+  margin: auto;
+  border-radius: 50%;
+  border-style: solid;
+}
+.tecno {
+  width: 20%;
+  margin: 2%;
+}
+.menu {
+  display: flex;
+  list-style: none;
+}
+.menu li {
+  background-color: black;
+  margin-right: .5rem;
+  height: 2rem;
+  width: 4.7rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+}
+.my-name {
+  font-family:fantasy; 
+  font-size: 1.3rem;;
+}
+
+.carrear{
+  color: blanchedalmond;
+  font-size: 1rem;
+  text-align: center;
+}
+.image-wrapper {
+  color: white;
+  width:70%;
+  display: flex;
+  font-size: 2rem;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+  height: 70vh;
+}
+.front-image {
+  width: 40%;
+  border-radius: 1rem;
+}
+
+.flex-main {
+  display: flex;
+  justify-content: center;
+}
+/* Start of skills styling  */
+.skills {
+  height: 100vh;
+}
+
+.skills .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+skill-list {
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Start of contact styling  */
+.contact form > div {
+  display: flex;
+}
+
+.contact form > div >label {
+  flex: 1;
+  text-align: right;
+  margin-right: 2%;
+  font-size: 1.5rem;
+}
+
+.contact form > div {
+  margin-bottom: 10px;
+}
+.contact form > div > input{
+  flex: 2;
+  height: 1.5rem;
+}
+
+.contact form > div > textarea{
+  flex: 2;
+  height: 6rem;
+}
+
+.contact h1 {
+  text-align: center;
+}
+.contact {
+  background: url(https://www.clipartsgram.com/image/461136230-background-websites1.jpg);
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.contact form > button {
+  width: 15%;
+  width: 15%;
+  height: 2rem;
+  margin: auto;
+}
+
+/* End of contact styling  */
+.container {
+  width: 85%;
+  margin: auto;
+}
+@media only screen and (min-width: 1024px ){
+  
+  .tecno {
+    flex: 1;
+  }
+  .image-wrapper {
+  color: white;
+  width: 40%;
+  display: flex;
+  font-size: 4rem;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+  height: 70vh;
+}
+}
+@media only screen and (min-width: 1440px ){
+
+  .my-name {
+  font-family:fantasy; 
+  font-size: 2.8rem;;
+}
+  .flex-main {
+  display: flex;
+  justify-content: flex-end;
+}
+  
+}
