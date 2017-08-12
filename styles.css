@@ -10,14 +10,12 @@ div{
 p{ text-align: center;}
 
 #personal-info {
-  flex: 2;
-}
-
-figure img {
+  flex: 1;
 }
 
 figcaption {
   font-style: italic;
+  width: 50%;
 }
 .header {
   background: #000000;
