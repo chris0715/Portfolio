@@ -4,7 +4,8 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="styles.css" rel="stylesheet">
   </head>
   
@@ -25,8 +26,7 @@
             <div class="my-name">CRISTOPHER ENCARNACION</div>
             <div>Web Developer</div>
           </div>
-          
-          
+              
         </div>
         
       </div>
@@ -39,7 +39,7 @@
           <figure>
              <img class="skills-img" src="images/chris.jpg" alt="this is me">
             <figcaption>
-             "If you are not failing is because you are not trying "
+             "If you are not failing is because you are not trying hard enough. "
             </figcaption>
           </figure>
          
@@ -70,6 +70,16 @@
       </div>
      
     </div>
+    
+    <div id="my-work">
+      <div><h2>Some of my work</h2></div>
+      <div id="work-box-div">
+        <div class="work-box"></div>
+        <div class="work-box"></div>
+        <div class="work-box"></div>
+      </div>
+    </div>
+    
     <div class="contact">
       <div class="container">
         <h1>Wanna know more? Contact Me</h1>
@@ -88,8 +98,23 @@
         </div>
         <button>Submit</button>
       </form>
-
       </div>
-          </div>
+          
+      <i class="fa fa-lg fa-facebook-square" aria-hidden="true"></i>
+
+    </div>
+    
+    <script crossorigin src="https://unpkg.com/react@15/dist/react.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.25.0/babel.min.js"></script>
+    <script type="text/babel">
+      var projects = [];
+      class WorkBox extends React.Component {
+        render(){
+          return(<div className="work-box">Hello</div>);
+        }
+      }
+      ReactDOM.render(<WorkBox/>,document.getElementById("work-box-div"));
+    </script>
   </body>
 </html>

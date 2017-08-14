@@ -10,13 +10,17 @@ div{
 p{ text-align: center;}
 
 #personal-info {
-  flex: 1;
+  flex: 3;
 }
 
+figure {
+  flex: 1;
+}
 figcaption {
   font-style: italic;
-  width: 50%;
+  width: 70%;
 }
+
 .header {
   background: #000000;
   display: flex;
@@ -35,6 +39,38 @@ figcaption {
 .about-me {
   background-color: antiquewhite;
   min-height: 50vh;
+}
+
+#my-work {
+  height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+#my-work h1,h2,h3 {
+  text-align: center;
+}
+
+  #my-work-div-title{
+  flex: 1;
+  text-align: center;
+  background-color: aqua;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+#work-box-div {
+  flex: 7;
+  padding: 1rem  3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-box {
+  box-shadow: 10px 10px grey;
+  width: 30%;
+  height: 30%;
+  background-color: bisque; 
 }
 .logo {
   margin-left: 1rem;
