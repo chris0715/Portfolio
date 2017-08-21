@@ -325,7 +325,20 @@ skill-list {
 }
 }
 @media only screen and (min-width: 1440px ){
-
+  
+  
+  ul li {
+    font-size: 1.3rem;
+  }
+  p {
+    text-align: justify;
+    font-size: 1.3rem;
+  }
+  
+  .skills-title {
+    font-size: 2rem;
+  }
+  
   .my-name {
   font-family:fantasy; 
   font-size: 2.8rem;;
@@ -334,5 +347,13 @@ skill-list {
   display: flex;
   justify-content: flex-end;
 }
+
+  #my-work h2 {
+    font-size: 2rem;
+  }
+  
+  .image-wrapper { 
+    font-size: 5rem; }
+  
   
 }
