@@ -328,11 +328,11 @@ skill-list {
   
   
   ul li {
-    font-size: 14px;
+    font-size: 25px;
   }
   p {
     text-align: justify;
-    font-size: 1.3rem;
+    font-size: 40px;
   }
   
   .skills-title {
@@ -349,11 +349,11 @@ skill-list {
 }
 
   #my-work h2 {
-    font-size: 2rem;
+    font-size: 55px;
   }
   
   .image-wrapper { 
-  font-size: 95px;
+  font-size: 110px;
   }
   
   
