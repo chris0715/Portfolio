@@ -327,8 +327,10 @@ skill-list {
 @media only screen and (min-width: 1440px ){
   
   
-  ul li {
-    font-size: 25px;
+  .menu {
+    
+    font-size: 30px;
+    margin-right: 2%;
   }
   p {
     text-align: justify;
